@@ -1,0 +1,27 @@
+.todolist {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 300px;
+  width: 300px;
+}
+
+.todolist__header {
+  text-align: center;
+  padding: 10px;
+}
+
+.todolist__form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.todolist__input {
+  padding: 3px;
+  width: 200px;
+}
+
+.todolist__content {
+  margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+.todoitem {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.todoitem[data-completed=true] {
+  background-color: green;
+  text-decoration: line-through;
+}
+
+.todoitem:hover {
+  box-shadow: 0 0 3px black;
+}
+
+.todo__text {
+  flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-primary);
+  height: var(--height-header);
+}
+
+.content {
+  padding-top: var(--height-header);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
